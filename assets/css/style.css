@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.navbar-container{
+
+.navbar-container {
     width: 100%;
     height: 80px;
     background-color: #000000;
     position: relative;
     padding: 0 2em;
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
     margin-top: 15px;
     margin-left: 15px;
 }
-nav{
+
+nav {
     position: relative;
 }
-.navbar-itens{
+
+.navbar-itens {
     list-style: none;
     position: absolute;
     display: inline-block;
@@ -30,45 +35,54 @@ nav{
     margin: 0;
     right: 0;
 }
-.navbar-itens li{
+
+.navbar-itens li {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
 }
-.navbar-itens li a{
+
+.navbar-itens li a {
     color: #ffffff;
     text-decoration: none;
-    transition: 0.5s;    
+    transition: 0.5s;
 }
-.navbar-itens li a:hover{
-    color:darkgray;
+
+.navbar-itens li a:hover {
+    color: darkgray;
 }
-#default-btn a{
+
+#default-btn a {
     padding: 8px 20px;
     background-color: #1ed760;
     border-radius: 20px;
-    color: #000000;  
+    color: #000000;
 }
-#default-btn a:hover{
+
+#default-btn a:hover {
     color: darkgray;
 }
-.header-container{
+
+.header-container {
     background-image: url(../img/sala-de-hub-de-racks-de-servidor-de-dados-com-centro-de-computacao-de-big-data-interior-azul-para-hospedar-hardware-de-armazenamento.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 676px;
 }
-.header-container h1{
+
+.header-container h1 {
     color: #ffffff;
     font-size: 64px;
     text-align: center;
-    line-height: 600px;    
+    line-height: 600px;
 }
-.specialties-container{
+
+.specialties-container {
     padding: 5em 0;
 }
-.specialties-container ul{
+
+.specialties-container ul {
     display: flex;
     width: 90%;
     position: relative;
@@ -76,45 +90,56 @@ nav{
     margin-right: auto;
     padding-left: 0;
 }
-.specialties-container ul li{
+
+.specialties-container ul li {
     flex: 1 1 200px;
     list-style: none;
     text-align: center;
     padding: 20px;
 }
-.fas{
+
+.fas {
     font-size: 60px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
-.fa-shield-halved{
+
+.fa-shield-halved {
     color: #30A65A;
 }
-.fa-rocket{
+
+.fa-rocket {
     color: #A53333;
 }
-.fa-comments{
+
+.fa-comments {
     color: #E28D0C;
 }
-.specialties-container ul li h3{
+
+.specialties-container ul li h3 {
     margin-bottom: 25px;
 }
-.specialties-container ul li p{
+
+.specialties-container ul li p {
     line-height: 24px;
 }
-.precos-container{
+
+.precos-container {
     padding-bottom: 5em;
     text-align: center;
     background-color: #f8f8f8f8;
 }
-.precos-container h2{
+
+.precos-container h2 {
     font-size: 36px;
     margin-top: 0;
 }
-.precos-container p{
+
+.precos-container p {
     font-size: 20px;
-}   
-.plano-container{
+}
+
+.plano-container {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -123,22 +148,26 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-.plano{
+
+.plano {
     flex: 1 1 200px;
     max-width: 275px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.plano ul{
+
+.plano ul {
     padding: 0;
 }
-.plano ul li{
+
+.plano ul li {
     list-style: none;
     height: 50px;
     line-height: 50px;
     background-color: #ffffff;
 }
-.plano .preco{
+
+.plano .preco {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -152,7 +181,8 @@ nav{
     margin-right: auto;
     margin-bottom: -50px;
 }
-.plano .nome-plano{
+
+.plano .nome-plano {
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 700;
@@ -162,7 +192,8 @@ nav{
     padding-bottom: 20px;
     height: 120px;
 }
-.plano .btn-plano{
+
+.plano .btn-plano {
     background-color: #30A65A;
     color: #ffffff;
     font-size: 24px;
@@ -170,6 +201,97 @@ nav{
     line-height: 65px;
     cursor: pointer;
 }
-.plano .recomendo{
+
+.plano .recomendo {
     background-color: #E2660C;
+}
+
+.buscar-dominio {
+    background-color: #000000;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.buscar-dominio h2 {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+
+.buscar-dominio p {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.buscar-dominio input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.buscar-dominio input[type="text"] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buscar-dominio input[type="submit"] {
+    background: #30A65A;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34px;
+    color: #ffffff;
+}
+
+.contato-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contato-container h2 {
+    font-size: 36px;
+}
+
+.contato-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contato-container input,
+.contato-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contato-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
 }
